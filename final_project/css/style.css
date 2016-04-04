@@ -2,17 +2,25 @@
 
 body{
   background: #00FFFF;
+  font-size: 20px;
+  font-family: 'BenchNine', sans-serif;
 }
-h1{ color:rgb(255,255,0);
+#splash {
+  background:url(../images/hotel.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  color:#fff;
+  height:80vh;
+}
+#splash div {
+  padding:10em 0 0 10em;
+}
+.logo { 
+  color:rgb(255,255,0);
+  font-size:2em;
   text-align: center;
 }
-#slogan{ font-style: italic;
-
-
-
-}
-
-
-p{ font-size: 20px
-  font-family: 'BenchNine', sans-serif;
+#slogan{ 
+  font-style: italic;
 }
