@@ -1,26 +1,63 @@
 @import url(https://fonts.googleapis.com/css?family=BenchNine:400,700);
 
 body{
-  background: #00FFFF;
-  font-size: 20px;
-  font-family: 'BenchNine', sans-serif;
+  background:#00FFFF; 
 }
-#splash {
-  background:url(../images/hotel.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:bottom;
-  color:#fff;
-  height:80vh;
-}
-#splash div {
-  padding:10em 0 0 10em;
-}
-.logo { 
-  color:rgb(255,255,0);
-  font-size:2em;
+h1,h2 { background-color:rgb(255,255,0);
   text-align: center;
 }
-#slogan{ 
-  font-style: italic;
+#slogan{ font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  background-color:red;
+  display:inline;
+  margin:0 auto;
 }
+#hostel{text-align: center;}
+
+#wrapper { 
+  background-color:#660033;
+  width:960px;
+  margin:0 auto;
+
+}
+.icon { padding: 0.5px;
+font-size:1px; height:0px;}
+img {width:960px;}
+nav {
+  font-size:15px;
+  font-style:italic;
+  font-family:georgia, serif;
+  background-color:#f8f8ff;
+  padding: 10px;
+}
+
+p{ font-size: 20px
+  font-family: 'BenchNine', sans-serif;
+}
+
+
+ul {background-color:blue; 
+}
+
+
+a{ background-color:yellow ;
+
+}
+strong, em {background-color: orange;
+
+}
+
+span {
+  color:red;
+  font-size:32px;
+}
+
+footer{
+  background-color:#545454;
+  font-style:italic;
+  font-family:georgia,serif;
+  padding:10px;
+}
+
+
